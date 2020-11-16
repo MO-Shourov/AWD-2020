@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+
+        .flex-container {
+            display: flex;
+            flex-direction: column;
+        }
+        .row {
+            flex-basis: 100%;
+            flex-grow: 0;
+            flex-shrink: 0;
+            margin: 1vh;
+            background:#3A506B;
+            display: flex;
+            flex-wrap: nowrap;
+            font-size: 1.25rem;
+            padding: 2vh;
+        }
+        .eDate {
+            flex-basis: 15%;
+            flex-shrink: 0;
+            flex-grow: 0;
+        }
+        .eName {
+            flex-basis: 50%;
+            flex-shrink: 0;
+            flex-grow: 0;
+        }
+        .eTime {
+            flex-basis: 15%;
+            flex-shrink: 0;
+            flex-grow: 0;
+        }
+        .eLocation {
+            flex-basis: 20%;
+            flex-shrink: 0;
+            flex-grow: 0;
+        }
+        @media only screen and (max-width: 800px) {
+         .row {
+            flex-wrap: wrap;
+            background-color: aquamarine;
+         }
+         .eDate {
+             flex-basis: 30%;
+         }
+         .eName {
+             flex-basis: 70%;
+         }
+         .eTime {
+             flex-basis: 30%;
+         }
+         .eDate {
+             flex-basis: 30%;
+         }
+        }/* End media Query*/
+
+        body {
+            background: #5BC0BE;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex-container">
+
+        <div class="row">
+            <div class="eDate">
+                11/3/20
+            </div>
+            <div class="eName">
+                No Goggle Meets(Staff Planning Day)
+            </div>
+            <div class="eTime">
+                7:30 - 12:30 am 
+            </div>
+            <div class="eLocation">
+                At Fitzgerald High School
+            </div>
+        </div><!--End row-->
+        <div class="row">
+            <div class="eDate">
+                11/3/20
+            </div>
+            <div class="eName">
+                Supply pick up Round 2
+            </div>
+            <div class="eTime">
+                11:30am - 3:30pm 
+            </div>
+            <div class="eLocation">
+                At Fitzgerald Public School
+            </div>
+        </div><!--End row-->
+        <div class="row">
+            <div class="eDate">
+                11/3/20 
+            </div>
+            <div class="eName">
+                Fershmen First Day(Tour and find their lockers)
+            </div>
+            <div class="eTime">
+                7:30am - 2:45pm
+            </div>
+            <div class="eLocation">
+                At Fitzgerald Public School 
+            </div>
+        </div><!--End row-->        
+        <div class="row">
+            <div class="eDate">
+                11/4/20
+            </div>
+            <div class="eName">
+                Supply pick up Round 
+            </div>
+            <div class="eTime">
+                5:00pm - 7:30pm
+            </div>
+            <div class="eLocation">
+                At Fitzgerald Public School
+            </div>
+        </div><!--End row-->   
+        <div class="row">
+            <div class="eDate">
+                11/4/20
+            </div>
+            <div class="eName">
+                Fershmen First Day(Tour and find their lockers)
+            </div>
+            <div class="eTime">
+                5:00pm - 7:30pm
+            </div>
+            <div class="eLocation">
+                At Fitzgerald Public School
+            </div>
+        </div><!--End row--> 
+        <dive class="row">
+            <div class="eDate">
+                11/4/20
+            </div>
+            <div class="eName">
+                PLC
+            </div>
+            <div class="eTime">
+                 5:00pm - 7:30pm
+            </div>
+            <div class="eLocation">
+                At Fitzgerald Public School
+            </div>
+        </dive><!--End row--> 
+    </div><!--End flex container-->
+</body>
+</html>
